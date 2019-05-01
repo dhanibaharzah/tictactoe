@@ -1,0 +1,54 @@
+table {
+		border-collapse:collapse;
+	}
+
+	td {
+		background-color: orange;
+		border: 3px solid #fff2bc;
+		font-size:80px;
+		color:#ffffff;
+		border-radius: 10px 10px 10px 10px;
+	}
+
+	body {
+	  background-color: #fff2bc;
+	  font-family: sans-serif;
+	}
+
+	h2 {
+	  font-family: sans-serif;
+	  display: inline-block;
+	  padding: 11px 21px;
+	  font-size: 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  outline: none;
+	  color: #fff;
+	  background-color: #4CAF50;
+	  border: none;
+	  border-radius: 11px;
+	}
+
+	.button {
+		  font-family: sans-serif;
+		  display: inline-block;
+		  padding: 11px 21px;
+		  font-size: 20px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fff;
+		  background-color: #4CAF50;
+		  border: none;
+		  border-radius: 11px;
+		  box-shadow: 0 4px #999;
+		}
+
+	.button:hover {background-color: #3e8e41}
+
+	.button:active {
+	  background-color: #3e8e41;
+	  box-shadow: 0 5px #666;
+	  transform: translateY(4px);
+	}
